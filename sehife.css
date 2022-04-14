@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,400&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,800;1,400&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: url(./image/fon2.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+
+.container .navbar{
+    width: 100%;
+    height: 80px;
+    background: black;
+}
+
+.navbar .login{
+   display: inline-block;
+   margin-left: 50px;
+   margin-top: 25px; 
+}
+
+.navbar .login a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 6px 12px;
+    font-family: Roboto;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: rgb(202, 32, 32);
+    border-radius: 3px;
+}
+
+.container .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family:'Playfair Display', serif;
+}
+
+.center h1{
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    width: 600px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.center h2{
+    color: white;
+    font-size: 50px;
+    font-weight: italic;
+    text-align: center;
+}
+
+.center .buttoms {
+    margin: 35px 280px;
+}
+
+.buttoms button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    color: black;
+    background: rgb(145, 60, 60);
+    border: solid 1px black;
+    border-radius: 20px;
+    margin-bottom: 10px;   
+    transition: 3s;
+}
+
+.buttoms button:hover{
+    background: wheat;
+}
